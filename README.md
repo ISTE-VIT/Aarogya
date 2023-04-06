@@ -6,7 +6,8 @@
 
 Aarogya- This project is an hardware project combined with IoT made during Project cycle of 2021-2022.
 
-This is a life saving project where
+This is a system that can continuously monitor a patient's heart rate and detect any abnormal spikes or drops in their heart rate. The system would then alert the patient's family or caregiver in real-time, allowing them to take immediate action if necessary.
+This project has the potential to help save lives by providing real-time monitoring of a patient's heart rate and alerting their emergency contacts if there is a problem.
 
 ## Authors
 
@@ -26,30 +27,15 @@ For the above-mentioned feature, 3 libraries namely additional, mail, activation
 
 **Hardware**From the hardware side , we used NODEMCU which is apparently the best and cheapest option for this project. We had chosen the MAX30102 module for detecting the heartbeat and the SpO2% of the individual. This data is sent to ThingSpeak where we have connected the the app IFTTT. IFTTT mobile app has to be installed in the individual's phone where it will give a call whenever there is a fluctuation in the person's heartbeat.
 
-**Server:** ??
-
 **Components:** NodeMCU, MAX30102
 
 **EDITOR:** Arduino IDE, Android Studio
 
-## Software Requirements Specification
-
-
-[Document]
-
-## Project Report
-[Document_2]
 
 
 ## Circuit Diagram
 
 ![CircuitDiagram](https://user-images.githubusercontent.com/91776131/213242261-07d7a4be-4740-446d-a5d2-b3b9169d31a4.jpg)
-
-## App Layout
-![Applayout]
-
-## Working Video
-[Video]
 
 
 <p align="center">
