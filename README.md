@@ -16,12 +16,14 @@ It is a health monitoring system which is used to check the heart rate of a pers
 
 ---
 
-### Tech Stack
+ ### Tech Stack 
 
-**Software** The app was developed in android studio and was supported as a database by firebase. The android app  code was written in Java with XML involved in GUI designing. We have also used two external dependencies named Biometric Prompt which helps in the detection and verification of user’s biometrics. We have initiated the automated mail upon not meeting necessary conditions using JavaMail API and GMAIL’s SMTP server. 
-For the above-mentioned feature, 3 libraries namely additional, mail, activation libraries have also been added externally.
-
-**Hardware** From the hardware side , we used NODEMCU which is apparently the best and cheapest option for this project. We had chosen the MAX30102 module for detecting the heartbeat and the SpO2% of the individual. This data is sent to ThingSpeak where we have connected the the app IFTTT. IFTTT mobile app has to be installed in the individual's phone where it will give a call whenever there is a fluctuation in the person's heartbeat.
+●	Heart Reate sensor MAX30102<br>
+●	Breadboard<br>
+●	node MCU<br>
+●	Thingspeak<br>
+●	IFTTT Arduino IDE<br>
+<br>
 
 - **Components:** NodeMCU, MAX30102
 
