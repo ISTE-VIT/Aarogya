@@ -16,14 +16,13 @@ It is a health monitoring system which is used to check the heart rate of a pers
 
 ---
 
- ### Tech Stack 
+### Tech Stack 
 
-●	Heart Reate sensor MAX30102<br>
-●	Breadboard<br>
-●	node MCU<br>
-●	Thingspeak<br>
-●	IFTTT Arduino IDE<br>
-<br>
+- Heart Reate sensor MAX30102
+- Breadboard
+- node MCU
+- Thingspeak
+- IFTTT Arduino IDE
 
 - **Components:** NodeMCU, MAX30102
 
